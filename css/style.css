@@ -410,7 +410,6 @@ fin css footer */
 /* css footer 2 */
 
 
-
 *{
   margin:0;
   padding: 0;
@@ -425,7 +424,7 @@ fin css footer */
 
 .footer{
   /* background-color: #1c284e; */
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .footer-row{
@@ -435,30 +434,137 @@ fin css footer */
 
 .footer-links{
   width: 25%;
-  padding: 0 15px;
+
+  
+}
+
+.footer-links1{
+  width: 25%;
+  
+}
+.footer-link2{
+  width: 25%;
+  
+}
+
+.footer-links3{
+  width: 25%;
+  
+}
+
+.footer-links3{
+  margin-left: 100px;
+  
+}
+
+.footer-links2{
+  margin-left: 50px;
+  
+}
+
+.footer-links1{
+  margin-left: -10px;
+  
 }
 
 .footer-links h4{
   font-size: 20px;
-  color: #fff;
+  color: black;
+  margin-bottom: 25px;
+  
+  font-weight: 500;
+  border-bottom: 2px solid #7b8081;
+  display: inline-block;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 50px;
+  width: 200px;
+  border-left: 2px solid #00C3FF;
+}
+
+.vertical-line a{
+  margin-left: 15px;
+}
+
+
+.footer-links1 h4{
+  font-size: 20px;
+  color: black;
   margin-bottom: 25px;
   font-weight: 500;
-  border-bottom: 2px solid #00C3FF;
+  border-bottom: 2px solid #7b8081;
+  display: inline-block;
+}
+
+.footer-links2 h4{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #7b8081;
+  display: inline-block;
+}
+
+.footer-links3 h4{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #7b8081;
   display: inline-block;
 }
 
 .footer-links ul li a {
   font-size: 18px;
   text-decoration: none;
-  color: #ffffff;
+  color: black;
+  display: block;
+  margin-bottom: 0px;
+  transition: all, 3s ease;
+}
+
+.footer-links1 ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
   display: block;
   margin-bottom: 15px;
   transition: all, 3s ease;
 }
-.footer-links ul li a:hover{
+.footer-links2 ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 15px;
+  transition: all, 3s ease;
+}
+
+.footer-links3 ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 15px;
+  transition: all, 3s ease;
+}
+.footer-links1 ul li a:hover{
   color: #fff;
   padding-left:6px;
 }
+
+.footer-links2 ul li a:hover{
+  color: #fff;
+  padding-left:6px;
+}
+
+.footer-links3 ul li a:hover{
+  color: #fff;
+  padding-left:6px;
+}
+
 
 ul{
 
@@ -474,6 +580,7 @@ li{
 a:link {
   text-decoration: none;
 }
+
 .social-links a{
   display:inline-block;
 
@@ -491,6 +598,14 @@ a:link {
   background-color: #00C3FF;
 }
 
+
+select{
+  padding: 5px 100px;
+}
+
+
+
+
 @media(max-width: 991px){
   
 .footer-row{
@@ -502,8 +617,23 @@ a:link {
 }
 
 }
-  
 
-  
 
-/* fin footer 3 */
+
+
+
+.linea {
+  width: 100%;
+  height: 1px;
+  background-color: #7e7373;
+}
+
+.linea div{
+padding: 30px;
+margin-top: 50px;
+}
+
+.bancoimg{
+  margin-left: 900px;
+  margin-top: -40px;
+}
