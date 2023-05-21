@@ -1,0 +1,509 @@
+/* Start blue bar code */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+    background-color: #1c284e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+   
+  }
+  
+.left-section{
+    margin-left: 40px;
+}
+
+
+  .email {
+    margin-right: 10px;
+  }
+  
+  .contact {
+    margin-right: 10px;
+  }
+  
+  .login, .signup {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .currency {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1c284e;
+    min-width: 80px;
+    padding: 10px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/* Start blue bar code */
+
+
+/* Start navigation bar code. */
+.encabezado{
+  
+}
+
+.navPrincipal{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin-right: 200px;
+}
+
+.ulnavPrincipal{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.encabezado nav ul{
+  list-style: none;
+}
+
+
+
+.ulnavPrincipal a{
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  padding: 12px 20px;
+  display: block;
+}
+
+a:hover{
+
+}
+
+.encabezado nav ul li ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+  position: absolute;
+  background: white;
+}
+
+.encabezado nav ul li ul li a{
+color: black;
+}
+
+.encabezado nav ul li ul li{
+  width: 180px;
+  position: relative;
+}
+
+.encabezado nav ul li ul li ul{
+  top: 0;
+  left: 180px;
+  position:absolute;
+}
+
+.encabezado nav ul li ul{
+  display: none;
+}
+
+.encabezado nav ul li:hover > ul{
+  display: block;
+}
+
+.div2{
+  background-image: url(https://mixmap-elementor.travelerwp.com/wp-content/uploads/2019/02/img_hero_6.jpg);
+  width: 100%;
+  height: 540px;
+}
+
+.boton {
+  margin-left: 30px;
+  padding: 20px 30px;
+  background-color: #be4b08;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* End navigation bar code. */
+
+
+.oracion{
+  margin-top: 100px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.oracion h1{
+  font-size: 50px;
+}
+
+.oracion h5{
+  font-size: 20px;
+}
+
+
+/* css de imagenes */
+
+.image-container{
+  display: flex;
+  justify-content: 100px;
+  
+}
+
+.image-container1{
+  background-image: url("../imagen/image1.jpg");
+  margin-top: 100px;
+  margin-left: 30px;
+
+  margin-right: 20px;
+  height: 350px;
+  width: 700px;
+}
+.image-container2{
+  background-image: url("../imagen/image2.jpg");
+  margin-top: 100px;
+  margin-right: 20px;
+  width: 400px;
+}
+.image-container3{
+  background-image: url("../imagen/image3.jpg");
+  margin-top: 100px;
+  margin-right: 20px;
+  width: 400px;
+  
+}
+
+.btn {
+  margin-left: 20px;
+  margin-top: 30px;
+  color: #ffffff;
+ 
+}
+
+.btn button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.boton2{
+  background-color: #d36526;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.titulo{
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.texto{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  color: white;
+  
+}
+
+.btn2 {
+  margin-left: 20px;
+  margin-top: 30px;
+ 
+}
+
+.btn3{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.btne {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+.btne.btn-outline-light {
+  border-color: #f8f9fa;
+}
+
+.btne:hover {
+ 
+  background-color: white;
+  color: black;
+}
+
+
+/* fin de propiedades css imagenes */
+
+
+/* propiedad top destination */
+
+.top{
+  margin: 50px;
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* fin propiedad top destination */
+
+
+
+/* css imagenes de ciudades */
+
+.contenedor-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fila {
+  display: flex;
+  flex-basis: 100%;
+
+}
+
+.columna {
+  flex: 1;
+  margin: 10px;
+ 
+}
+
+
+.ciudades{
+height: 300px;
+width: 100%;
+border-radius: 10px;
+}
+
+.tituloCiudad{
+color: #ffffff;
+
+}
+
+h1{
+color: #ffffff;
+}
+
+h5{
+color: #ffffff;
+}
+
+/* p{
+color: #ffffff;
+} */
+figure {
+    position: relative;
+    text-align: center;
+}
+
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/* fin de css de imagenes de ciudades */
+
+
+/*  inicia ccs footer */
+
+.subcribe{
+  background-color: rgb(28, 112, 180);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .divfooter{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background-color: #c9c7c7;
+  height: 300px;
+  }
+  
+  .cajafooter{
+  margin-left: 100px;
+  margin-top: 100px;
+  }
+  
+  .cajafooter1{
+  margin-left: 50px;
+  margin-top: 100px;
+  }
+  
+  .cajafooter2{
+  margin-left: 150px;
+  margin-top: 100px;
+  }
+  
+  .container3{
+  display: flex;
+  flex-basis: 100%;
+  }
+  
+  .form-control{
+  width: 500px;
+  padding: 10px;
+  }
+  
+  .pfooter{
+  font-size: 30px;
+  }
+
+/* 
+fin css footer */
+
+
+
+
+
+/* css footer 2 */
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.containerFooter{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer{
+  /* background-color: #1c284e; */
+  padding: 80px 0;
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00C3FF;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 15px;
+  transition: all, 3s ease;
+}
+.footer-links ul li a:hover{
+  color: #fff;
+  padding-left:6px;
+}
+
+ul{
+
+  list-style-type: none;
+
+}
+
+li{
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+.social-links a{
+  display:inline-block;
+
+  width: 40px;
+  background-color: rgb(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  transition: all .5s ease;
+}
+
+.social-link a:hover{
+  background-color: #00C3FF;
+}
+
+@media(max-width: 991px){
+  
+.footer-row{
+  text-align:center;
+}
+
+.footer-links{
+  width: 100px;
+}
+
+}
+  
+
+  
+
+/* fin footer 3 */
