@@ -1,20 +1,26 @@
-.navbar {
-  background-color: #336699;
+.container {
   display: flex;
-  justify-content: center;
-  padding: 10px;
 }
 
-.nav-button {
-  background-color: #004080;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 5px;
-  cursor: pointer;
+.box {
+  flex: 1;
+  height: 100px;
+  background-color: #eaeaea;
+  margin: 1px;
 }
 
-.nav-button:hover {
-  background-color: #003366;
+.box1 {
+  flex: 1;
+  height: 100px;
+  background-color: #eaeaea;
+  margin: 1px;
+  border-radius: 10px 0px 0px 10px;
 }
 
+.box2 {
+  flex: 1;
+  height: 100px;
+  background-color: #eaeaea;
+  margin: 1px;
+  border-radius: 0px 10px 10px 0px;
+}
